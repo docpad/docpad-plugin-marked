@@ -10,7 +10,7 @@ module.exports = (BasePlugin) ->
 			markedOptions:
 				pedantic: false
 				gfm: true
-				sanitize: true
+				sanitize: false
 				highlight: null
 
 		# Render some content
