@@ -1,41 +1,44 @@
 {
-	"name": "docpad-plugin-marked",
-	"version": "2.1.1",
-	"description": "Markdown rendering for DocPad, using Marked",
-	"homepage": "http://docpad.org/plugin/marked",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"markup",
-		"markdown"
-	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
-	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-		"Chase Colman <chase@infinityatlas.com> (https://github.com/chase)"
-	],
-	"bugs": {
-		"url": "https://github.com/docpad/docpad-plugin-marked/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "https://github.com/docpad/docpad-plugin-marked.git"
-	},
-	"engines" : {
-		"node": ">=0.4",
-		"docpad": "6.x"
-	},
-	"dependencies": {
-        "marked": "~0.2.8"
-	},
-	"devDependencies": {
-		"coffee-script": "~1.4.0"
-	},
-	"main": "./out/marked.plugin.js",
-	"scripts": {
-		"test": "node ./out/marked.test.js"
-	}
+  "name": "docpad-plugin-marked",
+  "version": "2.1.1",
+  "description": "Markdown rendering for DocPad, using Marked",
+  "homepage": "http://docpad.org/plugin/marked",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "markup",
+    "markdown"
+  ],
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Chase Colman <chase@infinityatlas.com> (https://github.com/chase)"
+  ],
+  "bugs": {
+    "url": "https://github.com/docpad/docpad-plugin-marked/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docpad/docpad-plugin-marked.git"
+  },
+  "engines": {
+    "node": ">=0.4",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "marked": "~0.2.8"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4.0"
+  },
+  "main": "./out/marked.plugin.js",
+  "scripts": {
+    "test": "node ./out/marked.test.js"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  }
 }
