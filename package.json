@@ -1,21 +1,32 @@
 {
   "name": "docpad-plugin-marked",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Markdown rendering for DocPad, using Marked",
   "homepage": "http://docpad.org/plugin/marked",
+  "license": {
+    "type": "MIT"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "gittip": "docpad",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6"
+  },
   "keywords": [
     "docpad",
     "docpad-plugin",
     "markup",
     "markdown"
   ],
-  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "author": "2012+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me), 2011 Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "contributors": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-    "Chase Colman <chase@infinityatlas.com> (https://github.com/chase)"
+    "Chase Colman <chase@infinityatlas.com> (https://github.com/chase)",
+    "Delapouite (https://github.com/Delapouite)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-marked/issues"
@@ -27,17 +38,19 @@
   "engines": {
     "node": ">=0.4"
   },
+  "peerDependencies": {
+    "docpad": "6"
+  },
   "dependencies": {
-    "marked": "~0.2.8"
+    "marked": "~0.2.10"
   },
   "devDependencies": {
-    "coffee-script": "~1.4.0"
+    "coffee-script": "~1.6.3",
+    "docpad": "6",
+    "projectz": "~0.2.6"
   },
   "main": "./out/marked.plugin.js",
   "scripts": {
     "test": "node ./out/marked.test.js"
-  },
-  "peerDependencies": {
-    "docpad": "6"
   }
 }

@@ -1,10 +1,12 @@
 ## History
 
+- v2.1.2 November 7, 2013
+	- Repackaged
+	- Updated dependencies
+
 - v2.1.1 March 7, 2013
 	- Repackaged
-	- Dependency upgrades
-		-  `marked` from 0.2.x to ~0.2.8
-		-  `coffee-script` from 1.3.x to ~1.4.0
+	- Updated dependencies
 
 - v2.1.0 October 22, 2012
 	- `sanitize` option is now `false` by default instead of `true`
