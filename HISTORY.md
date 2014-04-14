@@ -3,6 +3,7 @@
 - v2.2.1 April 14, 2014
 	- Parses markdown asyncronously
 		- Thanks to [daphne-d](https://github.com/daphne-d) for [pull request #6](https://github.com/docpad/docpad-plugin-marked/pull/6)
+	- Update dependencies
 
 - v2.2.0 January 10, 2014
 	- Repackaged
