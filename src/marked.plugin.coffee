@@ -26,7 +26,11 @@ module.exports = (BasePlugin) ->
 				marked.setOptions(config.markedOptions)
 
 				# Render
-				opts.content = marked(opts.content)
+				# use async form of marked in case highlight function requires it
+				marked opts.content, (err, result) ->
+					opts.content = result
+					next(err)
 
-			# Done
-			next()
+			else
+				# Done
+				next()
