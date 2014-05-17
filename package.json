@@ -30,7 +30,9 @@
   "contributors": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
     "Chase Colman <chase@infinityatlas.com> (https://github.com/chase)",
-    "Delapouite (https://github.com/Delapouite)"
+    "daphne-d (https://github.com/daphne-d)",
+    "Delapouite (https://github.com/Delapouite)",
+    "RobLoach (https://github.com/RobLoach)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-marked/issues"
@@ -51,10 +53,13 @@
   "devDependencies": {
     "coffee-script": "~1.7.1",
     "docpad": "6",
-    "projectz": "~0.3.11"
+    "projectz": "~0.3.13"
   },
   "main": "./out/marked.plugin.js",
   "scripts": {
     "test": "node ./out/marked.test.js"
+  },
+  "cakeConfiguration": {
+    "COFFEE_SRC_PATH": "src"
   }
 }

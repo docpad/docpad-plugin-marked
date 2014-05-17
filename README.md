@@ -86,7 +86,9 @@ These amazing people have contributed code to this project:
 
 - [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-marked/commits?author=balupton)
 - [Chase Colman](https://github.com/chase) <chase@infinityatlas.com> — [view contributions](https://github.com/docpad/docpad-plugin-marked/commits?author=chase)
+- [daphne-d](https://github.com/daphne-d) — [view contributions](https://github.com/docpad/docpad-plugin-marked/commits?author=daphne-d)
 - [Delapouite](https://github.com/Delapouite) — [view contributions](https://github.com/docpad/docpad-plugin-marked/commits?author=Delapouite)
+- [RobLoach](https://github.com/RobLoach) — [view contributions](https://github.com/docpad/docpad-plugin-marked/commits?author=RobLoach)
 
 [Become a contributor!](https://github.com/docpad/docpad-plugin-marked/blob/master/CONTRIBUTING.md#files)
 
