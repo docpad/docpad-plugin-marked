@@ -52,7 +52,7 @@
     "marked": "~0.3.2"
   },
   "devDependencies": {
-    "coffee-script": "~1.7.1",
+    "coffee-script": "~1.8.0",
     "docpad": "6",
     "projectz": "~0.3.17"
   },
