@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-marked",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "Markdown rendering for DocPad, using Marked",
   "homepage": "http://docpad.org/plugin/marked",
   "license": {

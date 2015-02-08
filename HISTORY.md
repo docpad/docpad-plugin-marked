@@ -1,5 +1,10 @@
 # History
 
+- v2.3.0 April 14, 2014
+	- Added an option for redefining marked renderers
+		- Thanks to [varya](https://github.com/varya) for [pull request #12](https://github.com/docpad/docpad-plugin-marked/pull/12)
+	- Update dependencies
+
 - v2.2.1 April 14, 2014
 	- Parses markdown asyncronously
 		- Thanks to [daphne-d](https://github.com/daphne-d) for [pull request #6](https://github.com/docpad/docpad-plugin-marked/pull/6)
