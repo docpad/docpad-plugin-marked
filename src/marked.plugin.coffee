@@ -24,6 +24,14 @@ module.exports = (BasePlugin) ->
 				# Requires
 				marked = require('marked')
 				marked.setOptions(config.markedOptions)
+				if config.markedRenderer
+					renderer = new marked.Renderer();
+					Object.keys(config.markedRenderer).forEach (key)->
+						return renderer[key] = config.markedRenderer[key];
+					return marked(opts.content, { renderer: renderer }, (err, result)->
+						opts.content = result
+						return next(err)
+					)
 
 				# Render
 				# use async form of marked in case highlight function requires it
