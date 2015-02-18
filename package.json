@@ -33,7 +33,9 @@
     "Chase Colman <chase@infinityatlas.com> (https://github.com/chase)",
     "daphne-d (https://github.com/daphne-d)",
     "Delapouite (https://github.com/Delapouite)",
-    "RobLoach (https://github.com/RobLoach)"
+    "kizu (https://github.com/kizu)",
+    "RobLoach (https://github.com/RobLoach)",
+    "varya (https://github.com/varya)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-marked/issues"
@@ -54,7 +56,7 @@
   "devDependencies": {
     "coffee-script": "^1.9.0",
     "docpad": "6",
-    "projectz": "^0.3.17"
+    "projectz": "^0.4.2"
   },
   "main": "./out/marked.plugin.js",
   "scripts": {
