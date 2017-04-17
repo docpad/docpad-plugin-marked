@@ -1,5 +1,8 @@
 # History
 
+## v2.4.0 2014 April 17
+- Updated base files
+
 ## v2.3.0 2014 April 14
 - Added an option for redefining marked renderers
 	- Thanks to [varya](https://github.com/varya) for [pull request #12](https://github.com/docpad/docpad-plugin-marked/pull/12)
