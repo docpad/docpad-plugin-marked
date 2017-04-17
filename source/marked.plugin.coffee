@@ -25,10 +25,10 @@ module.exports = (BasePlugin) ->
 				marked = require('marked')
 				marked.setOptions(config.markedOptions)
 				if config.markedRenderer
-					renderer = new marked.Renderer();
-					Object.keys(config.markedRenderer).forEach (key)->
-						return renderer[key] = config.markedRenderer[key];
-					return marked(opts.content, { renderer: renderer }, (err, result)->
+					renderer = new marked.Renderer()
+					Object.keys(config.markedRenderer).forEach (key) ->
+						return renderer[key] = config.markedRenderer[key]
+					return marked(opts.content, { renderer: renderer }, (err, result) ->
 						opts.content = result
 						return next(err)
 					)
