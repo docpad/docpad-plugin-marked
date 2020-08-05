@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-marked",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "Markdown rendering for DocPad, using Marked",
   "homepage": "https://github.com/docpad/docpad-plugin-marked",
   "license": "MIT",
@@ -106,8 +106,8 @@
     "@bevry/update-contributors": "^1.15.0",
     "coffeelint": "^2.1.0",
     "coffeescript": "^2.5.1",
-    "docpad": "^6.82.5",
-    "docpad-plugintester": "^1.6.1",
+    "docpad": "^6.83.1",
+    "docpad-plugintester": "^1.6.2",
     "projectz": "^2.13.0",
     "valid-directory": "^2.8.0"
   },
