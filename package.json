@@ -103,7 +103,7 @@
   "main": "edition-esnext/index.js",
   "dependencies": {
     "docpad-baseplugin": "^1.4.0",
-    "marked": "~1.2.2"
+    "marked": "~2.1.3"
   },
   "devDependencies": {
     "@bevry/update-contributors": "^1.18.0",
